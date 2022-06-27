@@ -114,16 +114,6 @@ def SA_merged(step, nodos = False, pesos = False):
     a =AF(currency='EUR')
     ruta = a.simulated_annealing_merged(maxsteps= step, c_nodes= nodos, c_weights= pesos)
     print(ruta)
-        
-
-
-
-
-
-
-
-
-
 
 def FINAL(nombre, max_iter=1):
     arbitrage = AF(
